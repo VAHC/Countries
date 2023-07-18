@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.button {
+  font-size: 7rem; /* rem unidad relativa a root element  */
+  font-weight: 700;
+  font-family: sans-serif;
+  color: transparent;
+  text-decoration: none;
+  -webkit-text-stroke: 2px #fff;
+  transition: 0.5s;
+  z-index: 1;
+  word-spacing: 1rem;
+  letter-spacing: -1px;
+}
+
+.button:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.video {
+  position: absolute;
+  min-width: 50%;
+  min-height: 50%;
+  z-index: -1;
+}

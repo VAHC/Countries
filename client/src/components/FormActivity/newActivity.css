@@ -1,0 +1,48 @@
+.newActivity{
+    margin-top: 0px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.formActivity{
+    width: 600px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.countries{
+    display: flex;
+    
+}
+
+.displayCountries{
+    display: flex;
+}
+
+.eachCountry{
+    display: flex;
+    background-color: var(--contrast);
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+}
+
+.countryName{
+    margin: 0px;
+}
+
+.closeButton{
+    background-color: red;
+    color: white;
+    height: 20px;
+    margin-left: 5px;
+}

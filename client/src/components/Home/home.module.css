@@ -1,0 +1,32 @@
+.section {
+  height: 80vh;
+  width: 100%;
+  background-color: var(--light-blue);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 15%;
+}
+
+.menu {
+  height: 150px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid var(--medium-blue);
+  margin: 20px 0;
+}
+
+.input {
+  width: 100%;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* ------------------------ */
+

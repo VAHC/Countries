@@ -1,0 +1,32 @@
+.header {
+  height: 20vh;
+  width: 100%;
+  background: linear-gradient(to left, #333, #333 80%, #eee 100%, #333 100%);
+  /* background: linear-gradient(var(--dark-blue) 0%, var(--medium-blue) 100%); */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.logo {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  text-decoration: none;
+  margin: 0px;
+
+}
+
+.title {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 100px;
+  font-size: 3.5rem;
+  word-spacing: -10px;
+  letter-spacing: -5px;
+  padding: 0 20px;
+  color: rgb(235, 230, 230);
+  text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(0,0,0,0.5),
+             4px 4px 5px rgba(0,0,0,0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+}

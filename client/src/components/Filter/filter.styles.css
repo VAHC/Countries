@@ -1,0 +1,27 @@
+.activities{
+    display: flex;
+  }
+  
+  .displayActivities{
+    display: flex;
+  }
+  
+  .eachActivity{
+    display: flex;
+    background-color: var(--contrast);
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .activityName{
+    margin: 0px;
+  }
+  
+  .closeButton{
+    background-color: red;
+    color: white;
+    height: 20px;
+    margin-left: 5px;
+  }
+  

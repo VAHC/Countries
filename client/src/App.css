@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url(./fonts/RobotoMono-VariableFont_wght.woff2) format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --dark-blue: #1b1e3f;
+  --medium-blue: #31429e;
+  --light-blue: #d9e6ee;
+}
+
+/* aplica estilo a todos los elementos del dom*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* clientWidth = width - padding - border*/
+  text-decoration: none; /* resetear estilos de enlaces */
+  font-family: 'Roboto Mono', monospace;
+  /* background-color: var(--light-blue); */
+}
+
+/* con flex no hay solapamiento entre cajas de margin-bottom con margin-top */
